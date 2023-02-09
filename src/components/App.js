@@ -13,9 +13,9 @@ const App = () => {
   }
 
   return (
-    <div class="ball">
-      <h1 class="count" onDoubleClick={alertMsg()}>{count}</h1>
-      <button class='increment-button' onClick={setCnt()}>Increment</button>
+    <div className="ball">
+      <h1 className="count" onDoubleClick={alertMsg()}>{count}</h1>
+      <button className='increment-button' onClick={setCnt()}>Increment</button>
     </div>
   )
 }
